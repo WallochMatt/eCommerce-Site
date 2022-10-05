@@ -70,3 +70,15 @@ h3 {
     margin-bottom: 27px;
     font-weight: normal;
 }
+
+.panel{
+    width: 1920px;
+    height: 633px
+}
+#banner{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    margin-top: 32px;
+    padding: 58px;
+}
