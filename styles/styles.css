@@ -1,19 +1,10 @@
-.text{
-    font-size: 70px;
-    font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    /*word-spacing: 50; maybe*/
-}
-
-.nav-bar {
-    padding: 15px;
-
+.font{
+    font-family: 'Segoe UI';
+    font-weight: 100;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     text-decoration: none;
@@ -24,11 +15,12 @@ nav ul {
 nav li {
     float: left;
     display: block;
-    padding: 8px;
 
 }
 
 .container a {
+    padding-right: 45px;
+    margin-top: 175px;
     color: black;
     text-decoration: none;
   }
@@ -38,5 +30,38 @@ body {
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 162px;
-    padding: 50px;
+}
+
+.cart{
+    float: right;
+    margin-right: 0;
+}
+
+hr {
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    background-color: transparent;
+    background-color: black;
+    height: 5px;
+}
+
+.hrs {
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    background-color: transparent;
+    background-color: #BF7631;
+    height: 2px;
+}
+
+.search-bar{
+    float: right;
+    padding-right: 36px;
+}
+
+h3 {
+    margin-top: 45px;
+    margin-bottom: 27px;
+    font-weight: normal;
 }
