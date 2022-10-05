@@ -32,3 +32,11 @@ nav li {
     color: black;
     text-decoration: none;
   }
+
+
+body {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 162px;
+    padding: 50px;
+}
