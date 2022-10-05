@@ -18,9 +18,13 @@ nav li {
 
 }
 
-.container a {
+
+.tab-over{
     padding-right: 45px;
-    margin-top: 175px;
+}
+
+.container a {
+
     color: black;
     text-decoration: none;
   }
@@ -35,6 +39,7 @@ body {
 .cart{
     float: right;
     margin-right: 0;
+    padding-right: -45px;
 }
 
 hr {
