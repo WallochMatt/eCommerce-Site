@@ -50,6 +50,11 @@ hr {
     background-color: black;
     height: 5px;
 }
+.hr2{
+    float: left;
+    width: 950px;
+}
+
 
 .hrs {
     display: block;
@@ -71,14 +76,60 @@ h3 {
     font-weight: normal;
 }
 
+h1{
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
 .panel{
     width: 1920px;
     height: 633px
 }
+
 #banner{
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
     margin-top: 32px;
     padding: 58px;
+}
+
+.title-cara{
+    letter-spacing: .239em;
+}
+
+.tab-in{
+    margin-left: 50px;
+    width: 890px;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 52px;
+    padding: 10px;
+}
+.label{
+    float: left;
+    font-size: 30px;
+    margin-left: 276px;
+    margin-top: 34px;
+    margin-bottom: 20px;
+}
+
+.email{
+    width: 1088px;
+    height: 54px;
+    box-sizing: border-box;
+    margin-left: 276px;
+   
+    
+}
+
+.message{
+    width: 1088px;
+    height: 205px;
+    box-sizing: border-box;
+    margin-left: 276px;
+   
 }
