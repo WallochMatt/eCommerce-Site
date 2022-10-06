@@ -51,7 +51,7 @@ hr {
     height: 5px;
 }
 .hr2{
-    float: left;
+    margin-left: 0;
     width: 950px;
 }
 
@@ -110,19 +110,22 @@ p{
     padding: 10px;
 }
 .label{
-    float: left;
     font-size: 30px;
     margin-left: 276px;
-    margin-top: 34px;
-    margin-bottom: 20px;
+    margin-top: 56px;
+}
+
+.spacer{
+    height: 50px;
 }
 
 .email{
     width: 1088px;
     height: 54px;
     box-sizing: border-box;
-    margin-left: 276px;
-   
+    margin-left: 276px;  
+    margin-top: 20px;
+    margin-bottom: 33px;
     
 }
 
@@ -131,5 +134,28 @@ p{
     height: 205px;
     box-sizing: border-box;
     margin-left: 276px;
+    margin-top: 20px;
    
+}
+
+#column-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/Cylinder_unglazed3_2048x2048.jpg);
+    height: 808px;
+    width: 600px;
+}
+/*delete?*/
+
+.column {
+    display: flex;
+    align-items:stretch;
+    justify-items: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
