@@ -139,23 +139,45 @@ p{
 }
 
 #column-image{
+    float: right;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../assets/Cylinder_unglazed3_2048x2048.jpg);
     height: 808px;
     width: 600px;
-}
-/*delete?*/
-
-.column {
-    display: flex;
-    align-items:stretch;
-    justify-items: center;
+    transform: scaleX(-1);
 }
 
-.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row-inner:after {
+    width: 950px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+}
+
+
+#about-vase{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/Vase_Dame_2048x2048.jpg);
+    width: 397px;
+    height: 534px;
+}
+
+.between-text{
+    float: left;
+    width: 430px;
+    padding-top: 0;
+    padding-left: 74px;
+    padding-right: 20px;
 }
