@@ -54,15 +54,23 @@ hr {
     margin-left: 0;
     width: 950px;
 }
+.hr3{
+    margin-left: 0;
+    width: 276px;
+}
 
 
 .hrs {
     display: block;
     overflow: hidden;
     border-style: inset;
-    background-color: transparent;
     background-color: #BF7631;
     height: 2px;
+    width: 127px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 268px;
 }
 
 .search-bar{
@@ -80,6 +88,13 @@ h1{
     font-weight: normal;
     font-size: 45px;
     margin-bottom: 20px;
+}
+
+h4{
+    margin-top: 30px;
+    margin-bottom: 17px;
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .panel{
@@ -164,8 +179,12 @@ p{
     clear: both;
 }
 
-.column{
+.column-left{
     float: left;
+    clear: both;
+}
+.column-right{
+    float: right;
 }
 
 
@@ -214,7 +233,46 @@ p{
     
 }
 
+
+.product-title{
+    margin-top: 30px;
+    margin-left: 3px;
+}
+
+
 .card-text{
+    margin-top: 17px;
     margin-left: 0;
     padding: 0;
+}
+
+.orange-text{
+    margin-top: 17px;
+    margin-left: 3px;
+    margin-bottom: 0;
+    padding: 0;
+    color: #BF7631;
+    font-weight: bolder;
+    /* I elected bolder, nromal is just as accurate, but bold is a better call to action*/
+}
+
+.add-button{
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-right: 0;
+    margin-top: 5px;
+    background-color: #BF7631;
+    color: white;
+    width: 170px;
+    height: 39px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.button-location{
+    float: inline-end
+
 }
