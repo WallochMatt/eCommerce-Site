@@ -43,9 +43,7 @@ body {
 }
 
 .cart{
-    float: right;
-    margin-right: 0;
-    padding-right: -45px;
+    padding-left: 45px;
 }
 
 hr {
@@ -83,6 +81,18 @@ hr {
     float: right;
     padding-right: 46px;
     margin-left: 345px;
+}
+
+#spyglass{
+    background-image: url(../assets/1200px-Google_Magnifying_Glass.svg.png);
+    background-position: 270px 3px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    margin-left: 220px;
+    width: 290px;
+    height: 25px;
+
+
 }
 
 h3 {
