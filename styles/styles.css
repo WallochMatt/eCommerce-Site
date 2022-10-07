@@ -4,6 +4,8 @@
 }
 
 nav ul {
+    display: flex;
+    align-items: center;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -27,8 +29,12 @@ nav li {
 
     color: black;
     text-decoration: none;
-  }
+}
 
+.mid-align{
+    margin-left: 185px;
+    
+}
 
 body {
     margin-left: 140px;
@@ -75,7 +81,8 @@ hr {
 
 .search-bar{
     float: right;
-    padding-right: 36px;
+    padding-right: 46px;
+    margin-left: 345px;
 }
 
 h3 {
@@ -98,20 +105,88 @@ h4{
 }
 
 .panel{
-    width: 1920px;
     height: 633px
+}
+
+.banner-text-left{
+    color: white;
+    font-size: 45px;
+    padding: 0;
+    margin-left: 146px;
+    margin-top: 120px;
+    margin-bottom: 0;
+    height: 197px;
+    width: 280px;
+}
+.banner-text-right{
+    color: white;
+    font-size: 45px;
+    padding: 0;
+    margin-left: 656px;
+    margin-top: 513px;
+    margin-bottom: 40px;
+    height: 197px;
+    width: 280px;
 }
 
 #banner{
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
-    margin-top: 32px;
+    margin-top: 0px;
     padding: 58px;
+}
+.left-banner-black{
+    background-color: black;
+    margin-left: 0;
+    position: absolute;
+    top: 165px;
+    left: 0px;
+    width: 146px;
+    height: 750px;
+}
+.right-banner-black{
+    background-color: black;
+    margin-left: 0;
+    position: absolute;
+    top: 165px;
+    right: 0px;
+    width: 146px;
+    height: 750px;
+}
+
+
+.banner-shade-right{
+    background-image: linear-gradient(270deg, black, transparent);
+    margin-left: 0;
+    position: absolute;
+    top: 165px;
+    right: 0px;
+    width: 55%;
+    height: 750px;
+}
+.banner-shade-left{
+    background-image: linear-gradient(to right, black, transparent);
+    margin-left: 0;
+    position: absolute;
+    top: 165px;
+    left: 0px;
+    width: 55%;
+    height: 750px;
 }
 
 .title-cara{
+    font-size: 40px;
     letter-spacing: .239em;
+}
+.lcara-shift{
+    margin-left: 10px
+}
+#pottery-logo-o{
+    background-image: url(../assets/icons8-pottery-96.png);
+    background-size: contain;
+    height: 45px;
+    width: 45px;
 }
 
 .tab-in{
@@ -132,6 +207,10 @@ p{
     margin-top: 56px;
 }
 
+
+.spacer-small{
+    height: 25px;
+}
 .spacer{
     height: 50px;
 }
