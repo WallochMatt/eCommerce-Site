@@ -177,6 +177,7 @@ h4{
 
 .title-cara{
     font-size: 40px;
+    font-weight: 400;
     letter-spacing: .239em;
 }
 
@@ -262,6 +263,11 @@ p{
     transform: scaleX(-1);
 }
 
+.row-bottom{
+    height: 0;
+    margin-left: 417px;
+
+}
 
 .row:after {
     content: "";
