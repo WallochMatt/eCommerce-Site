@@ -158,6 +158,7 @@ p{
     box-sizing: border-box;
     margin-left: 276px;
     margin-top: 20px;
+    margin-bottom: 23px;
    
 }
 
@@ -329,20 +330,6 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .product-title{
     margin-top: 30px;
     margin-left: 3px;
@@ -381,4 +368,28 @@ p{
 
 }
 
+.send-button{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-right: 260px;
+    margin-top: 10px;
+    background-color: #BF7631;
+    color: white;
+    width: 130px;
+    height: 39px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 
+}
+
+
+.foot{
+    height: 162px;
+    width: 100%;
+    background-color: #BF7631;
+    margin-left: 0;
+    position: absolute;
+    left: 0px;
+}
