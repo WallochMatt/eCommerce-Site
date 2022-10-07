@@ -135,6 +135,12 @@ p{
 .spacer{
     height: 50px;
 }
+.spacer-prod-top{
+    height: 112px;
+}
+.spacer-prod-bot{
+    height: 143px;
+}
 
 .email{
     width: 1088px;
@@ -209,7 +215,7 @@ p{
 .wrapper{
     display: grid;
     grid-template-areas: "1 2 3" "4 5 6" "7 8 9";
-    background-color: #a1a1d1;
+    background-color: transparent;
     width: 100%;
     height: 2400px;
     align-content: space-between;
@@ -231,8 +237,110 @@ p{
     background-position: 50%;
     height: 398px;
     border: 1px solid #707070;
+
     
 }
+
+#nat-vase{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/oriento-maVIpNNtmlQ-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+#fiera{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/tom-crew-bgIO-u4GEfI-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+#nat-pots{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/tom-crew-3uwu5K0RtaE-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+#pedra{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/linh-le-a0rE64YJDA4-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+#viaja{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+#servi{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+#campe{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/oriento-l0ah3UBLppo-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+#troca{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/tom-crew-SITGdvztUdg-unsplash.jpg);
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .product-title{
