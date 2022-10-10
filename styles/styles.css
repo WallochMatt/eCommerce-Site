@@ -67,7 +67,7 @@ hr {
 .hrs {
     display: block;
     overflow: hidden;
-    border-style: inset;
+    border-style: hidden;
     background-color: #BF7631;
     height: 2px;
     width: 127px;
@@ -334,6 +334,8 @@ p{
     width: 395px;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    color: black;
 }
 
 #mundo{
@@ -430,11 +432,6 @@ p{
 
 
 
-
-
-
-
-
 .product-title{
     margin-top: 30px;
     margin-left: 3px;
@@ -445,6 +442,7 @@ p{
     margin-top: 17px;
     margin-left: 0;
     padding: 0;
+    color: black;
 }
 
 .orange-text{
@@ -454,6 +452,7 @@ p{
     padding: 0;
     color: #BF7631;
     font-weight: bolder;
+    text-decoration: none;
     /* I elected bolder, nromal is just as accurate, but bold is a better call to action*/
 }
 
