@@ -55,8 +55,10 @@ hr {
     height: 5px;
 }
 .hr2{
-    margin-left: 0;
-    width: 950px;
+    margin-left: 0%;
+    width: 59%;
+    /* margin-left: 0;
+    width: 950px; */
 }
 .hr3{
     margin-left: 0;
@@ -211,85 +213,86 @@ h4{
 }
 
 .tab-in{
-    margin-top: 62px;
+    /* margin-top: 62px;
     margin-left: 50px;
-    margin-bottom: 50px;
-    width: 890px;
+    margin-bottom: 50px; */
+    margin-top: 3em;
+    margin-left: 2.5em;
+    margin-bottom: 2.5em;
+    width: 45em;
+    /* width: 890px; */
 }
 
 p{
     font-size: 20px;
-    
     padding: 10px;
 }
+
 .label{
     font-size: 30px;
-    margin-left: 276px;
-    margin-top: 56px;
+    margin-left: 17%;
+    /* margin-top: 56px; */
 }
-
 
 .spacer-small{
-    height: 25px;
+    height: 1.6em;
 }
 .spacer{
-    height: 50px;
+    height: 3em;
 }
 .spacer-prod-top{
-    height: 112px;
+    height: 6.5em;
 }
 .spacer-prod-bot{
-    height: 143px;
+    height: 27em;
 }
 
 .email{
-    width: 1088px;
-    height: 54px;
+    width: 67%;
+    height: 3em;
     box-sizing: border-box;
-    margin-left: 276px;  
-    margin-top: 20px;
-    margin-bottom: 33px;
-    
+    margin: 1% 17%
 }
 
 .message{
-    width: 1088px;
-    height: 205px;
+    width: 67%;
+    height: 15em;
     box-sizing: border-box;
-    margin-left: 276px;
-    margin-top: 20px;
-    margin-bottom: 23px;
-   
+    margin: 1% 17%
 }
 
 #column-image{
     float: right;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 2em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../assets/Cylinder_unglazed3_2048x2048.jpg);
-    height: 808px;
-    width: 600px;
+    /* height: 808px;
+    width: 600px; */
+    height: 51em;
+    width: 38em;
     transform: scaleX(-1);
 }
 
-.row-bottom{
+/* .row-bottom{
+    margin: 2% 22%;
     height: 0;
     margin-left: 417px;
 
-}
+} */
 
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-.row-inner:after {
+/* .row-inner:after {
     width: 950px;
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 .column-left{
     float: left;
@@ -304,18 +307,22 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../assets/Vase_Dame_2048x2048.jpg);
-    width: 397px;
-    height: 534px;
-    margin-top: 15px;
+    width: 20em;
+    height: 27em;
+    /* width: 397px;
+    height: 534px; */
+    /* margin-top: 15px; */
 }
 
 .between-text{
     float: left;
-    width: 430px;
+    margin: 1% 0% 3% 7%;
+    width: 23em;
+    /* width: 430px;
     padding-top: 0;
     padding-left: 74px;
     padding-right: 20px;
-    margin-top: 15px;
+    margin-top: 15px; */
 }
 
 .wrapper{
@@ -323,111 +330,86 @@ p{
     grid-template-areas: "1 2 3" "4 5 6" "7 8 9";
     background-color: transparent;
     width: 100%;
-    height: 2400px;
+    height: 100%;
+    justify-items: stretch;
     align-content: space-between;
     justify-content: space-between;
-    
+    align-items: baseline;
+    gap: 7.5% 13.74%;
 }
+/* ^ the flex modifications dont seem to do anything, come back and see about removing them*/
 
 .child{
-    height: 692px;
-    width: 395px;
+    height: 100%;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     text-decoration: none;
     color: black;
+    justify-content: space-between;
+    align-content: space-between;
 }
+
+
+
+.image-square{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 60%;
+    width: 100%;
+    border: 1px solid #707070;
+    max-height: 398px;
+    max-width: 398px;
+}
+
+
+
+.grid-children{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 398px;
+    border: 1px solid #707070;
+}
+
 
 #mundo{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/tom-crew-7HuTGlUfQSo-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
+/* 56.5% */
 
 #nat-vase{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/oriento-maVIpNNtmlQ-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
+
 #fiera{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/tom-crew-bgIO-u4GEfI-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
+
 #nat-pots{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/tom-crew-3uwu5K0RtaE-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
+
 #pedra{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/linh-le-a0rE64YJDA4-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
+
 #viaja{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
+
 #servi{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
+
 #campe{
-    background-size:cover;
-    background-repeat: no-repeat;
     background-image: url(../assets/oriento-l0ah3UBLppo-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
-
-    
 }
-#troca{
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-image: url(../assets/tom-crew-SITGdvztUdg-unsplash.jpg);
-    background-position: 50%;
-    height: 398px;
-    border: 1px solid #707070;
 
-    
+#troca{
+    background-image: url(../assets/tom-crew-SITGdvztUdg-unsplash.jpg);
 }
 
 
@@ -490,37 +472,50 @@ p{
 
 
 .foot{
-    height: 162px;
+    height: 13em;
     width: 100%;
     background-color: #BF7631;
-    margin-left: 0;
     position: absolute;
     left: 0px;
 }
 
 .sm-icon-l{
-    height: 75px;
+    height: 5em;
+    width: 5em;
+    margin-right: 1em;
+    /* height: 75px;
     width: 75px;
-    margin-right: 35px;
+    margin-right: 35px; */
 }
 .sm-icon-r{
-    height: 75px;
+    height: 5em;
+    width: 5em;
+    margin-left: 1em;
+    /* height: 75px;
     width: 75px;
-    margin-left: 35px;
+    margin-left: 35px; */
 }
 
 .align-foot{
     display: flex;
     align-items: center;
+    margin-left: 22%;
+    margin-top: 1.5em;
 }
 
 .foot-logo-buf{
-    margin: 0 142px 0;
+    margin: 0 4em 0;
+    /* margin: 0 142px 0; */
 }
 
 .foot-y-align{
-    margin-left: 417px;
-    margin-top: 22px;
+    margin-left: 22%;
+    margin-top: 1.5em;
+    /* margin-left: 417px;
+    margin-top: 22px; */
 }
 
-
+.footer-text{
+    display: flex;
+    justify-content: flex-end;
+}
