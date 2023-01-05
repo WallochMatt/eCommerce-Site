@@ -11,67 +11,70 @@
     <title>Cara Cara</title>
 </head>
 
-<body class="font">
+<body class="custom-body">
+    <div class="counter-nav"></div>
     <nav>
-        <h3>
-            <ul class="container a">
+        <div class="navbar page-margin">
+            <ul class="skip-links inThirds" >
                 <li class="tab-over"><a href="#home_jump">HOME</a></li>
                 <li class="tab-over"><a href="#about_jump">ABOUT</a></li>
                 <li class="tab-over"><a href="#prod_jump">PRODUCTS</a></li>
                 <li class="tab-over"><a href="#con_jump">CONTACT</a></li>
-
-
-                <div> 
-                    <li class="title-cara mid-align">CARA</li>
-                    <li id="pottery-logo-o"></li>
-                    <li class="title-cara rcara-shift">CARA</li>
-                </div>  
-                
-                
-                <li><input type="text" id="spyglass"></li>
-                <li class="cart colum"><a href="#">CART (0)</a></li> 
-                
             </ul>
-         </h3>
-         <hr>
+
+            <div class="mid-align"> 
+                <li class="title-cara ">CARA</li>
+                <li id="pottery-logo-o"></li>
+                <li class="title-cara rcara-shift">CARA</li>
+            </div>  
+            
+            <div class="cart skip-links inThirds" >
+                <input type="text" id="spyglass">
+                <p ><a href="#">CART (0)</a></p> 
+            </div>      
+        </div>
+        <hr class="page-margin">
     </nav>
 
-    <header id="home_jump">
-        <div class="spacer-small"></div>
-        <div class="right-banner-black"></div>
-        <div class="left-banner-black"></div>
-        <div class="panel" id="banner"></div>
-        <div class="banner-shade-left"><p class="banner-text-left">CERAMICS CRAFTED BY HAND...</p></div>
-        <div class="banner-shade-right"><p class="banner-text-right">...FROM THE GROUND UP</p></div>
+    <header  id="home_jump">
+        <div class="black-side" style="right: 85%;"></div>
 
+        <div  id="banner">
+            <div>
+                <p class="banner-text-left">CERAMICS CRAFTED BY HAND...</p>
+                <p class="banner-text-right">...FROM THE GROUND UP</p>
+            </div>
+        </div>
 
+        <div class="black-side" style="left: 85%;"></div>
     </header>
     
     
-    
-    <section>
-        <div id="about_jump" class="spacer-prod-top"></div>
+    <section id="about">
+        <div id="about_jump" class="spacer-large"></div>
         <h1>ABOUT US</h1>
-        <div>
-            <hr class="hr2">
-        </div>
-        <!-- <br> -->
+        <hr class="hr2">
+
         <div class="row">
-            <div class="column-left">
+            <div class="about-left">
                 <p class="tab-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet sit. Sed blandit libero volutpat sed cras ornare arcu. Pretium viverra suspendisse potenti nullam ac tortor vitae. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Risus commodo viverra maecenas accumsan lacus vel. Eleifend quam adipiscing vitae proin sagittis.</p>
                 <div class="row-inner">
-                    <p class="column-left" id="about-vase"></p>
-                    <p class="between-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet sit. Sed blandit libero volutpat sed cras ornare arcu. Pretium viverra suspendisse potenti nullam ac tortor vitae. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Risus commodo viverra maecenas accumsan lacus vel. Eleifend quam adipiscing vitae proin sagittis.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet sit. Sed blandit libero volutpat sed cras ornare arcu. Pretium viverra suspendisse potenti nullam ac tortor vitae. Mi in nulla posuere sollicitudin aliquam ultrices sagittis.</p>
+                    <div class="nested-vase" id="about-vase"></div>
+                    <div class="nested-text">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet sit. Sed blandit libero volutpat sed cras ornare arcu. Pretium viverra suspendisse potenti nullam ac tortor vitae. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Risus commodo viverra maecenas accumsan lacus vel. Eleifend quam adipiscing vitae proin sagittis.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo laoreet sit. Sed blandit libero volutpat sed cras ornare arcu. Pretium viverra suspendisse potenti nullam ac tortor vitae. Mi in nulla posuere sollicitudin aliquam ultrices sagittis.</p>
+                    </div>
                 </div>
             </div>
             <div id="column-image"></div>
         </div>
     </section>
+
     <br id="prod_jump">
+
     <section>
         <h1>OUR PRODUCTS</h1>
         <hr class="hr2">
-        <div class="spacer-prod-top"></div>
+        <div class="spacer-large"></div>
 
         <div class="wrapper">
             
@@ -90,12 +93,10 @@
                         <p class="orange-text">LEARN MORE</p>
                         <hr class="hrs">
                     </div>
-                    
                     <div class="add-button column-right">ADD TO CART</div>
                 </div>    
             </a>
             
-
 
 
             <a class="child" href="">
@@ -140,10 +141,9 @@
                     <div class="add-button column-right">ADD TO CART</div>
                 </div>    
             </a>
-            
 
 
-            
+
             <a class="child" href="">
                 
                 <div class="grid-children" id="nat-pots"></div>
@@ -163,7 +163,7 @@
                     <div class="add-button column-right">ADD TO CART</div>
                 </div>    
             </a>
-            
+
 
 
             <a class="child" href="">
@@ -277,7 +277,7 @@
 
             
         </div>
-        <div class="spacer-prod-bot"></div>
+        <div class="spacer-large"></div>
         
 
     </section>
@@ -297,32 +297,34 @@
         <div class="send-button column-right">SEND</div>
     
     </section>
-    <div class="spacer-prod-top"></div>
+    <div class="spacer-large"></div>
     
-    <footer class="foot spacer">
+    <footer class="foot">
 
-        <div class="row align-foot">
- 
-            <img src="./assets/icons8-youtube-96.png" class="sm-icon-l">
-
-            <img src="./assets/icons8-facebook-96 (1).png" class="sm-icon-l">
-            
-            <div class="title-cara align-foot foot-logo-buf">CARA<img src="./assets/icons8-pottery-96 (1).png" width="96px" height="96px" class="lcara-shift">CARA</div>
-
-            <img src="./assets/icons8-twitter-96.png" class="sm-icon-r">
-
-            <img src="./assets/icons8-instagram-96.png" class="sm-icon-r">
-        </div>
-
-
-        <div style="display:flex">
-            <p style="margin-left: 21em">Lorem ipsum gigantus mano. Shien flurs amos</p>
-            <p style="margin-left: 14em">Lorem ipsum gigantus mano. Shien flurs amos</p>
-            <p style="margin-left: 7em">©Copyright 2015 - 2020</p>
-        </div>
-
-
+        <div class="footer-format ">
+            <div class="inThirds socials-left">
+                <img src="./assets/icons8-youtube-96.png" class="sm-icon-l">
                 
+                <img src="./assets/icons8-facebook-96 (1).png" class="sm-icon-l">
+            </div>
+            
+            <div class="inThirds footer-logo title-cara">CARA<img src="./assets/icons8-pottery-96 (1).png" class="lcara-shift">CARA</div>
+
+            <div class="inThirds socials-right">
+                <img src="./assets/icons8-twitter-96.png" class="sm-icon-r">
+
+                <img src="./assets/icons8-instagram-96.png" class="sm-icon-r">
+            </div>
+        </div>
+
+
+        <div class="footer-text">
+            <p >Lorem ipsum gigantus mano. Shien flurs amos</p>
+            <p >Lorem ipsum gigantus mano. Shien flurs amos</p>
+            <span class="copyright">©Copyright 2015 - 2020</span>
+        </div>
+
+
     </footer>
     
 
