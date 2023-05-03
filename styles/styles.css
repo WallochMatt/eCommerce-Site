@@ -651,16 +651,29 @@ p{
     width: 66%;
     /* height: 398px; */
     border: 1px solid #707070;
+    top: 5em;
+    position: sticky;
 }
 
 .product-margin {
     margin: 0px auto;
     max-width: 1400px;
 }
+
 .product-details {
     max-width: 30%;
 }
+
 .side-by-side{
+    position: relative;
     display: flex;
     justify-content: space-between;
+}
+
+.title-margins{
+    margin: 0 0 1em;
+}
+
+.price-margins{
+    margin: 0;
 }
