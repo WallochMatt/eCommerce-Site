@@ -710,3 +710,19 @@ p{
     margin-left: 0;
     width: 95%;
 }
+
+.shipping-returns{
+    background-color: white;;
+    padding: 1%;
+    flex-direction: column;
+}
+
+.spec-ship-adjust {
+    padding: 0%; 
+    font-weight: bold;
+}
+
+.tight-text{
+    margin: 0;
+    padding: 0%;
+}
